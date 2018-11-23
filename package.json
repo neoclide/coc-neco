@@ -1,0 +1,43 @@
+{
+  "name": "coc-neco",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "keywords": [
+    "coc.nvim",
+    "json"
+  ],
+  "engines": {
+    "coc": ">= 0.0.24"
+  },
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "coc.source.neco.enable": {
+          "type": "boolean",
+          "default": true
+        },
+        "coc.source.neco.priority": {
+          "type": "integer",
+          "default": 9
+        },
+        "coc.source.neco.shortcut": {
+          "type": "string",
+          "default": "NEC"
+        },
+        "coc.source.omni.filetypes": {
+          "type": "array",
+          "default": [
+            "vim"
+          ],
+          "description": "Enabled filetypes",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "author": "chemzqm@gmail.com",
+  "license": "MIT"
+}
