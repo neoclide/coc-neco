@@ -25,7 +25,7 @@
           "type": "string",
           "default": "NEC"
         },
-        "coc.source.omni.filetypes": {
+        "coc.source.neco.filetypes": {
           "type": "array",
           "default": [
             "vim"
