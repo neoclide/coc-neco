@@ -3,7 +3,7 @@
 Vim completon source for [coc.nvim](https://github.com/neoclide/coc.nvim) using
 [neco-vim](https://github.com/Shougo/neco-vim)
 
-**Note:** this source invode vim function that could be quite slow, so make sure
+**Note:** this source invoke vim function that could be quite slow, so make sure
 your `coc.preferences.timeout` is not too low, otherwise it may timeout.
 
 ## Install

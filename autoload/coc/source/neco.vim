@@ -1,5 +1,9 @@
 function! coc#source#neco#init() abort
-  return {}
+  return {
+        \ 'priority': 9,
+        \ 'shortcut': 'NEC',
+        \ 'filetypes': ['vim'],
+        \}
 endfunction
 
 function! coc#source#neco#should_complete(opt) abort
