@@ -13,7 +13,7 @@ For vim-plug user, add:
 ```
 Plug 'Shougo/neco-vim'
 Plug 'neoclide/coc-neco'
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ```
 
 to your `.vimrc` and run `:PlugInstall`
