@@ -62,10 +62,11 @@ function! s:Filter(input, items, index)
         let o[key] = value[0:-2]
       elseif key ==# 'word' && value =~# '()$'
         let o[key] = value[0:-3]
-      elseif key ==# 'word' && colon
-        let o[key] = value[2:]
       else
         let o[key] = value
+      endif
+      if key ==# 'word' && colon
+        let o[key] = o[key][2:]
       endif
     endfor
     call add(res, o)
